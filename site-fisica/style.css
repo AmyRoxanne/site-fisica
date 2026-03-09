@@ -1,0 +1,64 @@
+body{
+    margin:0;
+    font-family: "Segoe UI", Arial;
+    background:#f4f6fb;
+}
+
+/* barra superior */
+
+header{
+    background:#b11226;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+/* layout principal */
+
+.layout{
+    display:flex;
+}
+
+/* menu lateral */
+
+.sidebar{
+    width:250px;
+    background:#222;
+    min-height:100vh;
+    padding:20px;
+}
+
+.sidebar a{
+    display:block;
+    color:white;
+    text-decoration:none;
+    margin:10px 0;
+}
+
+/* conteúdo */
+
+.content{
+    flex:1;
+    padding:40px;
+    max-width:900px;
+}
+
+/* caixas de equação */
+
+.eqbox{
+    background:#ffffff;
+    padding:20px;
+    border-left:5px solid #b11226;
+    margin:25px 0;
+}
+
+/* figuras */
+
+figure{
+    text-align:center;
+}
+
+figcaption{
+    color:#555;
+    font-size:14px;
+}
